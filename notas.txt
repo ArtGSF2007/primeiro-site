@@ -1,0 +1,94 @@
+FlexBox css
+todos os countainer devem ter pelo menos uma medida declarada
+
+Mediida relativa ao viewport
+Link=aparencia quando se carrga a pagina
+hover=quando o mouse passa por cima
+active=clicando sobre o Link
+visited=qunaod jafoi visitidaS
+<div class="fbranco">
+            <h1 style="text-align: center;">Turbo compressor</h1>
+
+            <p id="img1"><img src="assets/turbo.png" alt="">
+                <div class="carrinho">
+                    <h3>Adicionar ao carrinho</h3>
+                </div>
+                <h1 class="comprar">Comprar</h1>
+            </p>
+
+
+        </div>
+        
+
+        java
+        Operadores
+        
+                Operadores de atribuição simples
+                =var brinquedo="bola"
+
+                Operadores de atribuição reduzida
+                += somar um determinado valor ao valor atual da variavel
+                var numero=5
+                numero +=2
+                //atribui o valor 7 a variavel
+                -=subtrai um determinado valor do valor atual da variavel
+                *=mutiplica por um determinado valor ao valor da variavel atual
+                /=divide por um determinado valor o valor atual DA variavel
+                %=retorna o modulo da divisão do valor atual da variavel por um determinado numero
+
+                Operadores aritimeticos
+
+                +soma
+                -subtração
+                *mutiplicação
+                /divisão
+                %módulo/resto da divisão
+                **exponenciação/2**3=2*2*2
+
+                Operadoresde incremento e decremento
+
+                pos decremento
+                var numero=1
+                numero++
+                //retorna o valor da variavel e depois incrementa
+
+
+
+ var numero=1
+ numero+=2
+resulta em numero=3
+
+Operadores relacionais
+sao os Operadoresque vão realizar a comparação entre valores das variaveis
+==é igual a
+<menor que 
+>maior que 
+>=maior ou igual a
+<=menor ou igual
+!=diferente
+===igualdade estrita(compara valor e tipo)
+os Operadores relacionais sepre retornan resultados buleanos
+var numero1=10
+var numero2=20
+num1==nume2
+false
+num1>num2
+false
+num1<num2
+true
+var numA=5
+var numB="5"
+numA==numB
+true
+numA===numB
+false
+numA como um interiro(numero)
+numB como uma string(texto)
+==compara os caracteres 
+===compara os caracterese os tipos
+NOTA 
+quando comoparamos valores numericos (interiro,float,double) é possivel utilizar qualquer um dos Operadores
+quando comparamos valores textuais (srings) os operadores relacionais diferentes de ==,!= e === irão comparar o comprimento das strings em sua ordem alfabetica
+
+
+

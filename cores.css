@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Devanagari:wdth,wght@62.5,100..900&family=Quicksand:wght@300..700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(assets/background2.png.jpg);
+    font-family: "Quicksand";
+    background-size: cover;
+}
+
+.branco {
+    color: wheat;
+    margin: 30px;
+}
+
+.centro {
+    text-align: center;
+    margin: 15px;
+}
+
+.cubo {
+    width: 200px
+}
+
+.foto1 {
+    background-color: hsl(0, 42%, 54%);
+    height: 300px;
+    width: 450px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.comprar {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 187, 56);
+    width: 450px;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+footer {
+    margin-top: 7px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 100%
+}
+
+footer a:link,
+footer a:visited {
+    color: #fafafa;
+}
+
+footer a:hover {
+    color: rgb(0, 0, 0);
+}
+
+footer a {
+    text-align: end;
+}
+
+.banner {
+    width: 100%;
+    height: 370px;
+    position: relative;
+}
+
+.fbranco {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 17px;
+    height: 342px;
+}
+
+#img1 {
+    display: flex;
+    width: 220px;
+    justify-content: start;
+    height: 220px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #00000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 1280px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 54px;
+    height: 51px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+menu li a {
+    display: flex;
+    font-family: "Oswald";
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+menu li a:link {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+menu li a:visited {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+menu li a:hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+menu li {
+    list-style-type: none;
+}
+
+menu {
+    display: flex;
+    gap: 32px;
+}
+
+.produto {
+    background-color: #fafafa;
+    width: 209px;
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.comprar1 {
+    font-family: "Oswald";
+    list-style-type: none;
+    color: #002c07;
+    border-radius: 6px;
+    text-align: center;
+    margin: 8px;
+    text-decoration: none;
+    background-color: #007e15c0;
+}
+
+.produto a {
+    text-decoration: none;
+}
+
+.divisao {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+    width: 110px;
+}
+
+.banner {
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(to right, gray)
+}
+
+.imagem {
+    width: 100%;
+    height: 720px;
+    background-image: linear-gradient(90deg, #000000, #202020dc, rgba(255, 255, 255, 0), #80808000), url(assets/background4.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 32px;
+}
+
+.titulo1 {
+    width: 200px;
+    height: 45px;
+    font-family: "Julius Sans One";
+}
+
+.carrinho {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    color: rgb(0, 187, 56);
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 187, 56);
+    margin: 3px;
+}
+
+.qnt {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 255, 255);
+    width: 232px;
+    height: 37px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 3px;
+}
+
+.sub {
+    color: white;
+    width: 450px;
+    font-family: "Quicksand";
+}
+
+#iniciar {
+    width: 84px;
+    text-align: center;
+}
+
+#iniciar a:link {
+    color: white;
+    transition: 0.3s;
+}
+
+#iniciar a:visited {
+    color: white;
+    transition: 0.3s;
+}
+
+#iniciar a {
+    text-decoration: none;
+    font-family: "Noto Sans Devanagari", sans-serif;
+}
+
+#iniciar a:hover {
+    color: #686868;
+}
+
+.linha {
+    color: red;
+    width: 450px;
+}
+
+.cont {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contatos {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    background-color: #dbdbdb;
+    height: 50px;
+    border-radius: 6px;
+    font-family: "Quicksand";
+    width: 450px;
+    padding: 3px;
+    font-size: 20px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 8px skyblue;
+    padding: 3px;
+    font-size: 20px;
+    color: #000000;
+}
+
+textarea {
+    resize: none;
+    width: 450px;
+    height: 100px;
+}
+
+input[type="submit"] {
+    width: 450px;
+    font-family: "Quicksand";
+    background-color: #007e15;
+    color: white;
+    border-radius: 6px;
+    outline: none;
+    height: 30px;
+    font-size: 20px;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+    box-shadow: 0px 0px 8px rgb(81, 255, 81);
+    height: 30px;
+    font-size: 20px;
+}
+
+.imagem2 {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 32px;
+}
