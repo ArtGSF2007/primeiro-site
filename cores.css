@@ -47,7 +47,7 @@ body {
 }
 
 footer {
-    margin-top: 7px;
+    margin-top: 0px;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -95,10 +95,11 @@ footer a {
 header {
     width: 100%;
     height: 60px;
-    background-color: #00000000;
+    background-color: #33333300;
     display: flex;
     justify-content: center;
     align-items: center;
+    backdrop-filter: blur(2px);
 }
 
 nav {
@@ -176,6 +177,8 @@ menu {
 }
 
 .divisao {
+    margin-bottom: 120px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-evenly
 }
@@ -195,8 +198,8 @@ menu {
 
 .imagem {
     width: 100%;
-    height: 720px;
-    background-image: linear-gradient(90deg, #000000, #202020dc, rgba(255, 255, 255, 0), #80808000), url(assets/background4.jpg);
+    height: 100vh;
+    background-image: linear-gradient(90deg, #000000ab, #202020a4, rgba(0, 0, 0, 0), #80808000);
     background-size: cover;
     color: white;
     display: flex;
@@ -282,6 +285,8 @@ menu {
 .contatos {
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 200px;
 }
 
 form {
@@ -349,4 +354,11 @@ input[type="submit"]:focus {
     flex-direction: column;
     padding: 100px;
     gap: 32px;
+}
+
+#back {
+    background-image: linear-gradient(90deg, #000000ab, #202020a4, rgba(0, 0, 0, 0), #80808000), url(assets/background6.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
