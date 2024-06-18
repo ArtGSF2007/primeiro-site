@@ -90,5 +90,10 @@ NOTA
 quando comoparamos valores numericos (interiro,float,double) é possivel utilizar qualquer um dos Operadores
 quando comparamos valores textuais (srings) os operadores relacionais diferentes de ==,!= e === irão comparar o comprimento das strings em sua ordem alfabetica
 
+video
+<video controls autoplay muted loopS>
 
+Na oficina, nossos engenheiros e designers trabalham incansavelmente para refinar cada curva, cada ângulo da carroceria, usando as mais avançadas técnicas de modelagem e simulação para maximizar o desempenho aerodinâmico. Utilizando materiais de última geração, como a fibra de carbono, criamos obras de arte funcionais que desafiam as leis da física.
+
+Junte-se a nós nessa jornada rumo à vitória. Descubra como a aerodinâmica pode transformar não apenas carros, mas também sonhos em realidade. Seja parte da nossa equipe e experimente a emoção de acelerar rumo ao pódio. Venha para a nossa equipe e experimente o poder da aerodinâmica em ação!
 

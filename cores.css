@@ -120,6 +120,7 @@ nav {
 }
 
 menu li a {
+    background-color: #007e1500;
     display: flex;
     font-family: "Oswald";
     width: 100%;
@@ -138,8 +139,12 @@ menu li a:visited {
 }
 
 menu li a:hover {
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    background-color: #ffffff00;
+    box-shadow: 0px 0px 6px 2px rgba(255, 255, 255, 0.603);
+    border-radius: 15px;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 menu li {
@@ -148,28 +153,41 @@ menu li {
 
 menu {
     display: flex;
-    gap: 32px;
+    gap: 20px;
+    margin-right: 15px;
 }
 
 .produto {
-    background-color: #fafafa;
+    background-color: #ffffff;
     width: 209px;
     border-radius: 15px;
     margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.5);
 }
 
 .comprar1 {
+    transition: 0.5s;
     font-family: "Oswald";
     list-style-type: none;
-    color: #002c07;
+    color: #ffffff;
     border-radius: 6px;
     text-align: center;
     margin: 8px;
     text-decoration: none;
-    background-color: #007e15c0;
+    background-color: #00ac1d;
+}
+
+.comprar1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.comprar1:hover {
+    box-shadow: 0px 0px 13px 1px rgb(0, 136, 29);
+    background-color: #008616;
 }
 
 .produto a {
@@ -361,4 +379,179 @@ input[type="submit"]:focus {
     background-size: cover;
     width: 100%;
     height: 100%;
+}
+
+#back2 {
+    background-image: url(assets/background1.png.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    mix-blend-mode: multiply;
+}
+
+.slide {
+    background-image: url(assets/background6.jpg);
+}
+
+.load1,
+.load2 {
+    animation-name: load;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+
+#back3 {
+    background-image: url(assets/backgroundservices.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#back4 {
+    background-image: linear-gradient(90deg, #000000, #000000b2, rgba(0, 0, 0, 0.486), #00000000), url(assets/backgroundproject.jpg);
+    background-size: cover
+}
+
+#back5 {
+    background-image: url(assets/backgroundbody.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#serv2d {
+    width: 40%;
+    height: 100vh;
+    background-image: linear-gradient(90deg, #000000ab, #202020ee, rgba(0, 0, 0, 0), #80808000);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 10px;
+}
+
+#ir {
+    margin-left: 220px;
+    width: 84px;
+    text-align: center;
+}
+
+#ir a:link {
+    color: white;
+    transition: 0.3s;
+}
+
+#ir a:visited {
+    color: white;
+    transition: 0.3s;
+}
+
+#ir a {
+    font-size: larger;
+    text-decoration: none;
+    font-family: "Noto Sans Devanagari", sans-serif;
+}
+
+#ir a:hover {
+    color: #c1f1ff;
+    text-shadow: 2px 2px 4px #003cff;
+}
+
+.preço1 {
+    font-size: large;
+    color: #007e15;
+}
+
+.entrega {
+    font-size: medium;
+    color: #003cff;
+}
+
+.serv3d {
+    width: 40%;
+    height: 100vh;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 10px;
+    background-image: linear-gradient(backdrop-filter blur(10px), backdrop-filter blur(10px));
+}
+
+.quadro {
+    width: 500px;
+    height: 300px;
+    flex-grow: 1;
+}
+
+.quadro1 {
+    background-color: #003cff;
+    flex-grow: 1;
+}
+
+.quadro2 {
+    background-color: #007e15;
+    flex-grow: 1;
+}
+
+.quadro:hover {
+    flex-grow: 2;
+}
+
+.serviços {
+    margin-top: 130px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 222px;
+}
+
+.serviço {
+    box-shadow: 0px 0px 20px 3px rgb(0, 0, 0);
+    border-radius: 20px;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    width: 350px;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+}
+
+.gg {
+    font-size: xx-large;
+    font-family: "Julius Sans One";
+}
+
+.g {
+    font-size: larger;
+    margin-top: 4px;
+}
+
+.botão {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 25px;
+    transition: 0.7s;
+    height: 50px;
+    width: 250px;
+    background-color: #5e83ff;
+    border-radius: 100px;
+    color: #ffffff;
+    align-items: center;
+    padding: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px 1px rgb(255, 255, 255);
+}
+
+.botão:hover {
+    box-shadow: 0px 0px 20px 3px rgb(255, 255, 255);
 }
