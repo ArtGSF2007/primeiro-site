@@ -37,13 +37,25 @@ body {
 }
 
 .comprar {
+    transition: 0.5s;
     text-decoration: none;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 187, 56);
+    background-image: radial-gradient(circle at center, rgb(0, 255, 42), rgb(0, 209, 35));
     width: 450px;
     border-radius: 5px;
     margin: 3px;
+    border: solid rgb(0, 185, 0) 1px;
+    text-decoration: none;
+}
+
+.comprar:hover {
+    box-shadow: 0px 0px 6px 4px rgb(153, 153, 153);
+}
+
+.comprar a {
+    text-decoration: none;
+    color: white;
 }
 
 footer {
@@ -77,12 +89,40 @@ footer a {
     position: relative;
 }
 
+main {
+    width: 100%;
+    padding: 16px;
+}
+
+h1.branco {
+    color: #ffffff;
+    text-align: center;
+}
+
 .fbranco {
+    font-family: "Noto Sans Devanagari";
+    margin-left: 10%;
+    box-shadow: 0px 0px 13px 3px rgb(124, 124, 124);
+    width: 80%;
     background-color: #ffffff;
     border-radius: 6px;
     box-sizing: border-box;
-    margin: 17px;
-    height: 342px;
+    /*height: 342px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.fbranco h1 {
+    text-align: center;
+}
+
+.prod {
+    width: 600px;
+    padding: 32px 0;
+    display: flex;
+    gap: 20px;
 }
 
 #img1 {
@@ -177,7 +217,7 @@ menu {
     text-align: center;
     margin: 8px;
     text-decoration: none;
-    background-color: #00ac1d;
+    background-image: radial-gradient(circle at center, rgb(0, 255, 42), rgb(82, 255, 59));
 }
 
 .comprar1 a {
@@ -233,16 +273,26 @@ menu {
 }
 
 .carrinho {
+    transition: 0.5s;
     text-decoration: none;
     text-align: center;
     align-items: center;
-    color: rgb(0, 187, 56);
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-image: radial-gradient(circle at center, rgb(58, 36, 255), rgb(0, 58, 219));
     width: 450px;
     height: 30px;
     border-radius: 5px;
-    border: 2px solid rgb(0, 187, 56);
+    border: 2px solid rgba(24, 143, 255, 0);
     margin: 3px;
+}
+
+.carrinho a {
+    text-decoration: none;
+    color: #003cff;
+}
+
+.carrinho:hover {
+    box-shadow: 0px 0px 6px 2px rgb(134, 134, 134);
 }
 
 .qnt {
@@ -392,10 +442,6 @@ img {
     mix-blend-mode: multiply;
 }
 
-.slide {
-    background-image: url(assets/background6.jpg);
-}
-
 .load1,
 .load2 {
     animation-name: load;
@@ -404,8 +450,8 @@ img {
     animation-iteration-count: 1;
 }
 
-#back3 {
-    background-image: url(assets/backgroundservices.jpg);
+#backz {
+    background-image: url(assets/backz.jpg);
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -511,15 +557,17 @@ img {
     display: flex;
     justify-content: space-around;
     margin-bottom: 222px;
+    ;
 }
 
 .serviço {
+    padding: 10px;
     box-shadow: 0px 0px 20px 3px rgb(0, 0, 0);
     border-radius: 20px;
     height: 100%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(12px);
     width: 350px;
-    color: #ffffff;
+    color: #00d9ff;
     text-align: center;
     align-items: center;
 }
@@ -534,24 +582,94 @@ img {
     margin-top: 4px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .botão {
+    background-image: radial-gradient(circle at center, rgb(0, 217, 255), rgb(65, 100, 255));
+    text-decoration: none;
+    transition: 0.7s;
     display: flex;
     flex-direction: column;
     margin-left: 50px;
     margin-top: 25px;
-    transition: 0.7s;
     height: 50px;
     width: 250px;
-    background-color: #5e83ff;
     border-radius: 100px;
-    color: #ffffff;
+    color: #0010a5;
     align-items: center;
     padding: 10px;
     font-size: x-large;
-    text-decoration: none;
     box-shadow: 0px 0px 3px 1px rgb(255, 255, 255);
 }
 
 .botão:hover {
-    box-shadow: 0px 0px 20px 3px rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 3px rgb(255, 255, 255);
+}
+
+.detalhesp {
+    width: 400px;
+    height: 80px;
+    background-color: #0010a5;
+}
+
+.textn {
+    text-decoration: none;
+}
+
+.prodDesc p {
+    font-size: xx-large;
+    color: #007e15;
+}
+
+.slide {
+    height: 400px;
+    background-size: cover;
+    flex-grow: 1;
+    background-position: center center;
+}
+
+#slide1 {
+    width: 200px;
+    background-size: cover;
+}
+
+#slide2 {
+    background-image: url(assets/background4.jpg);
+    background-size: cover;
+}
+
+#slide3 {
+    background-image: url(assets/background3.png.jpg);
+    background-size: cover;
+}
+
+.slide :hover {
+    flex-grow: 7;
+}
+
+.descsub {
+    font-size: medium;
+    color: #008307;
+}
+
+.descsub2 {
+    margin-top: 15px;
+    font-size: medium;
+    color: #0073a0;
+}
+
+.prodImg {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-image: url(assets/turbo.png);
+}
+
+.prodImg2 {
+    width: 400px;
+    height: 250px;
+    background-size: cover;
+    background-image: url(assets/supercharger.png);
 }
